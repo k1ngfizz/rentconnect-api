@@ -8,7 +8,6 @@ SECRET_KEY = "your-secret-key"
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -16,7 +15,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
+
+    'rest_framework',  # DRF
+
     'users',
     'properties',
     'bookings',
